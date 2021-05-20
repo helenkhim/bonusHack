@@ -21,6 +21,7 @@ public class CashbackHackServiceTest {
         int expected = 0;
         assertEquals(expected, actual);
     }
+
     @Test
     public void shouldReturn999IfAmount1001() {
         CashbackHackService cashbackHackService = new CashbackHackService();
